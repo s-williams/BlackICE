@@ -1,0 +1,145 @@
+##############
+# AXIS
+##############
+axis = {
+	SCW_SPA_1 = {
+		trigger = {
+			#Sevilla
+			5030 = { 
+				controller = {
+					faction = axis
+				}
+			}
+		}
+		primary = yes
+	}
+	SCW_SPA_2 = {
+		trigger = {
+			#Madrid
+			4540 = {
+				controller = {
+					faction = axis
+				}
+			}
+		}
+		primary = yes
+	}
+	SCW_SPA_3 = {
+		trigger = {
+			#Barcelona
+			4548 = {
+				controller = {
+					faction = axis
+				}
+			}
+		}
+		primary = yes
+	}
+	SCW_SPA_4 = {
+		trigger = {
+			#Valencia
+			4862 = {
+				controller = {
+					faction = axis
+				}
+			}
+		}
+		primary = yes
+	}
+	SCW_SPA_5 = {
+		trigger = {
+			#La Coruña
+			3610 = {
+				controller = {
+					faction = axis
+				}
+			}
+		}
+		primary = yes
+	}
+	SCW_SPA_6 = {
+		trigger = {
+			#Huelva
+			5029 = {
+				controller = {
+					faction = axis
+				}
+			}
+		}
+		primary = yes
+	}
+}
+
+##############
+# ALLIES
+##############
+allies = {
+	SCW_SPR_1 = {
+		trigger = {
+			#Sevilla
+			5030 = {
+				controller = {
+					faction = allies
+				}
+			}
+			
+		}
+		primary = yes
+	}
+	SCW_SPR_2 = {
+		trigger = {
+			#Madrid
+			4540 = {
+				controller = {
+					faction = allies
+				}
+			}
+		}
+		primary = yes
+	}
+	SCW_SPR_3 = {
+		trigger = {
+			#Barcelona
+			4548 = {
+				controller = {
+					faction = allies
+				}
+			}
+		}
+		primary = yes
+	}
+	SCW_SPR_4 = {
+		trigger = {
+			#Valencia
+			4862 = {
+				controller = {
+					faction = allies
+				}
+			}
+		}
+		primary = yes
+	}
+	SCW_SPR_5 = {
+		trigger = {
+			#La Coruña
+			3610 = {
+				controller = {
+					faction = allies
+				}
+			}
+		}
+		primary = yes
+	}
+	SCW_SPR_6 = {
+		trigger = {
+			#Huelva
+			5029 = {
+				controller = {
+					faction = allies
+				}
+			}
+		}
+		primary = yes
+	}
+	
+}

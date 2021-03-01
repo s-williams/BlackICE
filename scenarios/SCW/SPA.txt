@@ -1,0 +1,229 @@
+1936.1.2 = {
+
+oob = "scenarios/SCW/SPA_OOB.txt"
+
+capital = 4155
+government = right_wing_autocrat
+head_of_state = 10032
+head_of_government = 10032
+foreign_minister = 10057
+armament_minister = 10002
+minister_of_security = 10135
+minister_of_intelligence = 10085
+chief_of_staff = 10184
+chief_of_army = 10002
+chief_of_navy = 10230
+chief_of_air = 10089
+
+ideology = paternal_autocrat
+alignment = { x = 100 y = 96.2 }
+neutrality = 45
+national_unity = 65
+join_faction = axis
+officers_ratio = 1.39
+
+#########################################################################
+# Training Laws Techs
+#########################################################################
+advanced_training_land_tech = 1
+advanced_training_air_tech = 1
+advanced_training_naval_tech = 1
+
+hidden_coal_to_oil_base_counter = 1
+training_laws = basic_training
+press_laws = censored_press
+industrial_policy_laws = mixed_industry
+education_investment_law = average_education_investment
+economic_law = full_civilian_economy
+conscription_law = volunteer_army
+civil_law = limited_restrictions
+
+popularity = {
+	national_socialist = 0
+	fascistic = 25
+	paternal_autocrat = 30
+	social_conservative = 30
+	market_liberal = 0
+	social_liberal = 15
+	social_democrat = 0
+	left_wing_radical = 0
+	leninist = 0
+	stalinist = 0
+}
+
+organization = {
+	national_socialist = 0
+	fascistic = 35
+	paternal_autocrat = 45
+	social_conservative = 50
+	market_liberal = 0
+	social_liberal = 30
+	social_democrat = 0
+	left_wing_radical = 0
+	leninist = 0
+	stalinist = 0
+}
+
+
+infantry_theory = 5
+infantry_practical = 5
+militia_theory = 2.5
+militia_practical = 2.5
+mobile_theory = 1
+mobile_practical = 1
+artillery_theory = 2
+artillery_practical = 2
+rocket_science = 0
+rocket_practical = 0
+naval_engineering = 3.5
+destroyer_practical = 2.5
+cruiser_practical = 4
+capitalship_practical = 2
+carrier_practical = 0
+submarine_engineering = 0
+submarine_practical = 0
+electronic_engineering_theory = 0
+electronic_engineering_practical = 0
+automotive_theory = 1
+armour_practical = 0
+aeronautic_engineering = 2.5
+single_engine_aircraft_practical = 2.5
+twin_engine_aircraft_practical = 2.5
+four_engine_aircraft_practical = 0
+spearhead_theory = 0
+superior_firepower_theory = 2.5
+grand_battleplan_theory = 0
+human_wave_theory = 0
+land_doctrine_practical= 0
+naval_doctrine_practical = 0
+base_strike_doctrine = 0
+fleet_in_being_doctrine = 2.5
+sealane_interdiction_doctrine = 0
+air_doctrine_practical = 0
+fighter_focus = 2.5
+cas_focus = 2.5
+tac_focus = 0
+nav_focus = 0
+strategic_air_focus = 0
+mechanicalengineering_theory = 5
+chemical_engineering = 2.5
+jetengine_theory = 0
+jetengine_practical = 0
+nuclear_physics = 0
+nuclear_bomb = 0
+transport_practical = 2.5
+construction_practical = 2.5
+agriculture = 1
+industry_tech = 2
+basic_education = 1
+industral_production = 1
+industral_efficiency = 1
+supply_production = 2
+ammo_production = 2
+food_rations_production = 2
+electronic_mechanical_egineering = 1
+radio_technology = 1
+infantry_radios = 1
+cavalry_smallarms = 1
+cavalry_support = 1
+cavalry_guns = 1
+cavalry_at = 1
+militia_smallarms = 1
+militia_support = 1
+militia_guns = 1
+militia_at = 1
+infantry_activation = 1
+smallarms_technology = 1
+infantry_support = 1
+infantry_guns = 1
+infantry_at = 1
+mountain_infantry = 1
+tank_chassis_design = 1
+single_engine_fighter_design = 1
+twin_engine_fighter_design = 1
+basic_aeroengine = 1 #Remove?
+basic_aircraft_machinegun = 1
+basic_medium_fueltank = 1
+basic_twin_engine_airframe = 1
+basic_bomb = 1
+basic_four_engine_airframe = 1
+air_field_engineering = 1
+port_engineering = 1
+radios = 1
+improved_security_units = 1
+reconaissance_aircraft_design = 1
+civil_medicine = 2
+
+	Small_Ship_Building_Technologies = 	1
+	Medium_Ship_Building_Technologies = 1		
+	Capital_Ship_Building_Technologies = 1
+	submarine_construction_technolgies = 0
+	large_aircraft_production = 0
+	medium_aircraft_production = 2
+	small_aircraft_production = 3
+	small_arms_manufacturing = 5
+	automotive_construction_industry = 3
+	tank_production_industry = 1
+	artillery_production_industry = 4
+
+art_barrell_ammo = 1
+
+heavy_aa_guns = 1
+
+#mass_assault = 1
+#assault_concentration = 1
+
+destroyer_technology = 1
+destroyer_class = 0
+frigate_class = 0
+torpedo_boat_class = 1
+motor_torpedo_boat_class = 1
+light_naval_guns = 1
+light_warship_engine = 1
+light_warship_screws_rudder_optimalisation = 0
+hydrophone_dev = 1
+small_warship_surface_radar = 0
+small_warship_airsearch_radar = 0
+smallwarship_asw = 0
+smallwarship_damage_control = 0
+smallwarship_fire_control_computer = 0
+smallwarship_AAA_control_computer = 0
+hdfd_radio_dev = 0
+depth_charge = 1
+hedgehog_dev = 0
+asw_counter_measures = 0
+heavy_antiaircraft_light_ships = 0
+light_antiaircraft_light_ships = 1
+
+lightcruiser_technology = 1
+lightcruiser_class = 0
+anti_air_cruiser_activation = 0
+heavycruiser_class = 0
+heavycruiser_technology = 1
+heavy_cruiser_naval_guns = 1
+light_cruiser_naval_guns = 1
+cruiser_naval_guns_AP_ammo = 0
+cruiser_naval_guns_HE_ammo = 0
+cruiser_naval_guns_autoloader = 0
+cruiser_engine_and_boilers = 1
+cruiser_screws_and_rudder_optimalisation = 1
+cruiser_hull_shape_optimalisation = 0
+lightcruiser_armour_thickness = 1
+heavy_cruiser_armour_thickness = 1
+cruiser_bulkheads_layout = 1
+cruiser_horizontal_protection_layout = 1
+cruiser_vertical_protection_layout = 1
+mediumwarship_surface_radar = 0
+mediumwarship_airsearch_radar = 0
+cruiser_damage_control = 0
+cruiser_fire_control_computer = 0
+cruiser_AAA_control_computer = 0
+cruiser_light_anti_air_artilery = 1
+cruiser_medium_anti_air_artilery = 1
+cruiser_anti_air_artilery_focus = 0
+cruiser_heavy_anti_air_artilery = 0
+
+battleship_technology = 1
+submarine_technology = 1
+
+}

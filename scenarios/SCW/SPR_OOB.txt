@@ -1,0 +1,960 @@
+theatre = {
+name = "Ejército España"
+leader = 3079
+location = 4540
+regiment = { type = hq_brigade name = "Ejército España" historical_model = 0 }
+regiment = { type = HQDEF_brigade name = "" historical_model = 0 }
+regiment = { type = horse_transport name = "" historical_model = 2 strength = 50 }
+###################
+# R E G U L A R S #
+###################
+division = {
+	name = "3a División Infantería"
+	leader = 3056
+	location = 4862
+	is_reserve = yes
+	regiment = { type = division_hq_standard name = "3a División Infantería HQ" historical_model = 0 }
+	regiment = { type = infantry_brigade name = "" historical_model = 1 strength = 50 }
+	regiment = { type = artillery_brigade name = "" historical_model = 1 strength = 50 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 strength = 50 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 strength = 50 }
+	regiment = { type = horse_transport name = "" historical_model = 2 strength = 50 }
+}
+division = {
+	name = "4a División Infantería"
+	leader = 3049
+	location = 4548
+	is_reserve = yes
+	regiment = { type = division_hq_standard name = "4a División Infantería HQ" historical_model = 0 }
+	regiment = { type = infantry_brigade name = "" historical_model = 1 strength = 50 }
+	regiment = { type = artillery_brigade name = "" historical_model = 1 strength = 50 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 strength = 50 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 strength = 50 }
+	regiment = { type = horse_transport name = "" historical_model = 2 strength = 50 }
+}
+division = {
+	name = "Division Caballería"
+	location = 4548
+	is_reserve = yes
+	regiment = { type = division_hq_standard name = "Division Caballería HQ" historical_model = 0 }
+	regiment = { type = cavalry_brigade name = "" historical_model = 1 strength = 50 }
+	regiment = { type = light_infantry_brigade name = "" historical_model = 1 strength = 50 }
+	regiment = { type = pack_artillery_brigade name = "" historical_model = 1 strength = 50 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 strength = 50 }
+	regiment = { type = armored_car_brigade name = "" historical_model = 1 strength = 50 }
+	regiment = { type = horse_transport name = "" historical_model = 2 strength = 50 }
+}
+division = {
+	name = "1a Brigada Montaña"
+	location = 9506
+	is_reserve = yes
+	regiment = { type = division_hq_standard name = "2a Brigada Montana HQ" historical_model = 0 }
+	regiment = { type = bergsjaeger_brigade name = "1st/2nd Media Brigadas" historical_model = 0 }
+	regiment = { type = pack_artillery_brigade name = "" historical_model = 2 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 strength = 50 }
+	regiment = { type = horse_transport name = "" historical_model = 3 }
+}
+division= {
+	name = "1. Brigada Blindada"
+	location = 4540
+	is_reserve = yes
+	regiment = { type = division_hq_standard name = "1. Brigada Blindada HQ" historical_model = 0 }
+	regiment = { type = light_armor_brigade name = "1. Brigada Blindada" historical_model = 0 }
+	regiment = { type = armored_car_brigade name = "" historical_model = 1 strength = 50 }
+	regiment = { type = light_transport name = "" historical_model = 3 }
+}
+navy = {
+	name = "Base Naval Cádiz"
+	base = 5125
+	location = 5125
+	ship = { type = light_cruiser name = "ARE Republica" historical_model = 0 strength = 155}
+	ship = { type = destroyer_actual name = "ARE Almirante Valdés" historical_model = 1 strength = 130.65}
+	ship = { type = destroyer_actual name = "ARE Almirante Antequera" historical_model = 2 strength = 133.8}
+	ship = { type = destroyer_actual name = "ARE Almirante Miranda" historical_model = 2 strength = 133.8}
+	ship = { type = destroyer_actual name = "ARE Gravina" historical_model = 2 strength = 133.8}
+}
+navy = {
+	name = "Flotilla Méndez Núñez"
+	base = 3676
+	location = 3676
+	ship = { type = light_cruiser name = "ARE Mï¿½ndez Nï¿½ï¿½ez" historical_model = 0 strength = 155}
+	ship = { type = destroyer_actual name = "ARE Escano" historical_model = 2 strength = 133.8}
+	ship = { type = destroyer_actual name = "ARE Jorge Juan" historical_model = 2 strength = 133.8}
+	ship = { type = destroyer_actual name = "ARE Ulloa" historical_model = 2 strength = 133.8}
+}
+navy = {
+	name = "Escuadrón de Batalla"
+	base = 4548
+	location = 4548
+	ship = { type = light_cruiser name = "ARE Miguel de Cervantes" historical_model = 1 strength = 164}
+	ship = { type = destroyer_actual name = "ARE Alsedo" historical_model = 1 strength = 130.65}
+	ship = { type = destroyer_actual name = "ARE Lazaga" historical_model = 1 strength = 130.65}
+	ship = { type = transport_ship name = "1a Flotilla de Transporte Naval" historical_model = 0 }
+	ship = { type = transport_ship name = "2a Flotilla de Transporte Naval" historical_model = 0 }
+}
+navy = {
+	name = "Armada Colonial"
+	base = 4548
+	location = 4548
+	ship = { type = destroyer_actual name = "ARE Sánchez Barcáiztegui" historical_model = 1 strength = 130.65}
+	ship = { type = destroyer_actual name = "ARE Almirante Ferrándiz" historical_model = 1 strength = 130.65}
+	ship = { type = destroyer_actual name = "ARE José Luis Díez" historical_model = 1 strength = 130.65}
+	ship = { type = destroyer_actual name = "ARE Lepanto" historical_model = 1 strength = 130.65}
+	ship = { type = destroyer_actual name = "ARE Churucca" historical_model = 1 strength = 130.65}
+	ship = { type = destroyer_actual name = "ARE Alcalá Galiano" historical_model = 1 strength = 130.65}
+	ship = { type = transport_ship name = "3a Flotilla de Transporte Naval" historical_model = 0 }
+	ship = { type = transport_ship name = "4a Flotilla de Transporte Naval" historical_model = 0 }
+}
+navy = {
+	name = "Grupo C"
+	base = 4862
+	location = 4862
+	ship = { type = submarine name = "B1" historical_model = 0 strength = 123}
+	ship = { type = submarine name = "B2" historical_model = 0 strength = 123}
+	ship = { type = submarine name = "B3" historical_model = 0 strength = 123}
+	ship = { type = submarine name = "B4" historical_model = 0 strength = 123}
+	ship = { type = submarine name = "B5" historical_model = 0 strength = 123}
+	ship = { type = submarine name = "B6" historical_model = 0 strength = 123}	
+}
+navy = {
+	name = "Grupo B"
+	base = 4862
+	location = 4862
+	ship = { type = submarine name = "C1" historical_model = 1 strength = 132}
+	ship = { type = submarine name = "C2" historical_model = 1 strength = 132}
+	ship = { type = submarine name = "C3" historical_model = 1 strength = 132}
+	ship = { type = submarine name = "C4" historical_model = 1 strength = 132}
+	ship = { type = submarine name = "C5" historical_model = 1 strength = 132}
+	ship = { type = submarine name = "C6" historical_model = 1 strength = 132}
+}
+navy = {
+	name = "ARE Libertad"
+	base = 4548
+	location = 4548
+	ship = { type = light_cruiser name = "ARE Libertad" historical_model = 1 strength = 164}
+}
+
+air = {
+	name = "1a Escuadra Aérea"
+	base = 4540
+	location = 4540
+	wing = { type = light_bomber name = "1er Grupo Táctico" historical_model = 0 }
+	wing = { type = light_bomber name = "2o Grupo Táctico" historical_model = 0 }
+}
+air = {
+	name = "2a Escuadra Aérea"
+	base = 4548
+	location = 4548
+	wing = { type = multi_role name = "1er Grupo de Caza" historical_model = 0 }
+	wing = { type = interceptor name = "3er Grupo de Caza" historical_model = 0 }
+}
+air = {
+	name = "3a Escuadra Aérea"
+	base = 4862
+	location = 4862
+	wing = { type = strategic_bomber name = "1er Grupo Estratégico" historical_model = 0 }
+	wing = { type = strategic_bomber name = "2o Grupo Estratégico" historical_model = 0 }
+}
+air = {
+	name = "Fuerzas Aérea del África"
+	base = 4548
+	location = 4548
+	wing = { type = tactical_bomber name = "1er Grupo de Bombardeo" historical_model = 0 }
+	wing = { type = interceptor name = "2o Grupo de Caza" historical_model = 0 }
+}
+navy = {
+	name = "I Flotilla de la Armada"
+	base = 4548
+	location = 4548
+	ship = { type = coastal_battleship name = "ARE Jaime I" historical_model = 0 strength = 230 pride = yes }
+	ship = { type = torpedo_boat name = "ARE T-2" historical_model = 0 strength = 152}
+	ship = { type = torpedo_boat name = "ARE T-3" historical_model = 0 strength = 152}
+	ship = { type = torpedo_boat name = "ARE T-7" historical_model = 0 strength = 152}
+	ship = { type = torpedo_boat name = "ARE T-16" historical_model = 0 strength = 152}
+	ship = { type = torpedo_boat name = "ARE T-17" historical_model = 0 strength = 152}
+	ship = { type = torpedo_boat name = "ARE T-18" historical_model = 0 strength = 152}
+	ship = { type = torpedo_boat name = "ARE T-20" historical_model = 0 strength = 152}
+}
+#################
+# S P R _ O O B #
+#################
+division= {
+	name = "Madrid Defenders"
+	location = 4540
+	is_reserve = yes
+	leader = 3079
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 1  }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 1  }
+	regiment = { type = engineer_brigade name = "" historical_model = 1  }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1  }
+	regiment = { type = battle_commander_brigade name = "Vicente Rojo Lluch" historical_model = 3  }
+	regiment = { type = horse_transport name = "" historical_model = 2  }
+}
+division = {
+	name = "Infantry de Madrid"
+	location = 4540
+	is_reserve = yes
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = infantry_brigade name = "" historical_model = 1  }
+	regiment = { type = artillery_brigade name = "" historical_model = 1  }
+	regiment = { type = engineer_brigade name = "" historical_model = 1  }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1  }
+	regiment = { type = horse_transport name = "" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 3745
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "1 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 3746
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "2 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 3811
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "3 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 3883
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "4 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 3955
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "5 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 3956
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "6 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 3886
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "7 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 4224
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "8 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 4354
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "9 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 4545
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "10 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 3882
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "11 Transports" historical_model = 2  }
+}
+
+
+division = {
+	name = "Republican Militia"
+	location = 3957
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "12 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 4708
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "13 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 4543
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "14 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 4413
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "15 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 4411
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "16 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 4476
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "17 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 4539
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "18 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 4648
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "19 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 4706
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "20 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 4540
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "21 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 4540
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "22 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 4540
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "23 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 4540
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "24 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 4541
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "25 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 4547
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "26 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 4649
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "27 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 4806
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "28 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 4651
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "29 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 9506
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "30 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 4953
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "31 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 5066
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "32 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 5126
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "33 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 5101
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "34 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Republican Militia"
+	location = 5100
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "35 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 3884
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "36 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 3884
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "37 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 4296
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "38 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 4548
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "39 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 4548
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "40 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 4862
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "41 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 4862
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "42 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 5073
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "43 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 5159
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "44 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 5128
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "45 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 5128
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "46 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 4478
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "47 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 4478
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "48 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 4540
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "49 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 4808
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "50 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 4807
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "51 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 4957
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "52 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 4707
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "53 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 4655
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "54 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 4412
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "55 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 5001
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "56 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 5104
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "57 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 5159
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "58 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 5033
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "59 Transports" historical_model = 2  }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 5097
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "60 Transports" historical_model = 2  }
+}
+
+	division = {
+		name = "División de Guarnición"
+		location = 4862
+		regiment = { type = garrison_brigade name = "" historical_model = 1 }
+		regiment = { type = anti_air_brigade name = "" historical_model = 0 }
+	}
+	division = {
+		name = "División de Guarnición"
+		location = 4862
+		regiment = { type = garrison_brigade name = "" historical_model = 1 }
+		regiment = { type = anti_air_brigade name = "" historical_model = 0 }
+	}
+	division = {
+		name = "División de Guarnición"
+		location = 4862
+		regiment = { type = garrison_brigade name = "" historical_model = 1 }
+		regiment = { type = anti_air_brigade name = "" historical_model = 0 }
+	}
+	division = {
+		name = "División de Guarnición"
+		location = 4862
+		regiment = { type = garrison_brigade name = "" historical_model = 1 }
+		regiment = { type = anti_air_brigade name = "" historical_model = 0 }
+	}
+	division = {
+		name = "División de Guarnición"
+		location = 4862
+		regiment = { type = garrison_brigade name = "" historical_model = 1 }
+		regiment = { type = anti_air_brigade name = "" historical_model = 0 }
+	}
+	division = {
+		name = "División de Guarnición"
+		location = 4862
+		regiment = { type = garrison_brigade name = "" historical_model = 1 }
+		regiment = { type = anti_air_brigade name = "" historical_model = 0 }
+	}
+	division = {
+		name = "División de Guarnición"
+		location = 4862
+		regiment = { type = garrison_brigade name = "" historical_model = 1 }
+		regiment = { type = anti_air_brigade name = "" historical_model = 0 }
+	}
+	division = {
+		name = "División de Guarnición"
+		location = 4862
+		regiment = { type = garrison_brigade name = "" historical_model = 1 }
+		regiment = { type = anti_air_brigade name = "" historical_model = 0 }
+	}
+	division = {
+		name = "División de Guarnición"
+		location = 4862
+		regiment = { type = garrison_brigade name = "" historical_model = 1 }
+		regiment = { type = anti_air_brigade name = "" historical_model = 0 }
+	}
+
+division = {
+	name = "Brigada Mixta"
+	location = 4862
+	is_reserve = yes
+	regiment = { type = division_hq_standard name = "Brigada mixta" historical_model = 0 }
+	regiment = { type = light_infantry_brigade name = "" historical_model = 1  }
+	regiment = { type = artillery_brigade name = "" historical_model = 1  }
+	regiment = { type = engineer_brigade name = "" historical_model = 1  }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1  }
+	regiment = { type = horse_transport name = "" historical_model = 2  }
+}
+division = {
+	name = "Brigada Mixta"
+	location = 4862
+	is_reserve = yes
+	regiment = { type = division_hq_standard name = "Brigada mixta" historical_model = 0 }
+	regiment = { type = light_infantry_brigade name = "" historical_model = 1  }
+	regiment = { type = artillery_brigade name = "" historical_model = 1  }
+	regiment = { type = engineer_brigade name = "" historical_model = 1  }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1  }
+	regiment = { type = horse_transport name = "" historical_model = 2  }
+}
+division = {
+	name = "Brigada Mixta"
+	location = 4862
+	is_reserve = yes
+	regiment = { type = division_hq_standard name = "Brigada mixta" historical_model = 0 }
+	regiment = { type = light_infantry_brigade name = "" historical_model = 1  }
+	regiment = { type = artillery_brigade name = "" historical_model = 1  }
+	regiment = { type = engineer_brigade name = "" historical_model = 1  }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1  }
+	regiment = { type = horse_transport name = "" historical_model = 2  }
+}
+division = {
+	name = "Brigada Mixta"
+	location = 4862
+	is_reserve = yes
+	regiment = { type = division_hq_standard name = "Brigada mixta" historical_model = 0 }
+	regiment = { type = light_infantry_brigade name = "" historical_model = 1  }
+	regiment = { type = artillery_brigade name = "" historical_model = 1  }
+	regiment = { type = engineer_brigade name = "" historical_model = 1  }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1  }
+	regiment = { type = horse_transport name = "" historical_model = 2  }
+}
+division = {
+	name = "Brigada Mixta"
+	location = 4862
+	is_reserve = yes
+	regiment = { type = division_hq_standard name = "Brigada mixta" historical_model = 0 }
+	regiment = { type = light_infantry_brigade name = "" historical_model = 1  }
+	regiment = { type = artillery_brigade name = "" historical_model = 1  }
+	regiment = { type = engineer_brigade name = "" historical_model = 1  }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1  }
+	regiment = { type = horse_transport name = "" historical_model = 2  }
+}
+division = {
+	name = "Brigada Mixta"
+	location = 4862
+	is_reserve = yes
+	regiment = { type = division_hq_standard name = "Brigada mixta" historical_model = 0 }
+	regiment = { type = light_infantry_brigade name = "" historical_model = 1  }
+	regiment = { type = artillery_brigade name = "" historical_model = 1  }
+	regiment = { type = engineer_brigade name = "" historical_model = 1  }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1  }
+	regiment = { type = horse_transport name = "" historical_model = 2  }
+}
+division = {
+	name = "Brigada Mixta"
+	location = 3884
+	is_reserve = yes
+	regiment = { type = division_hq_standard name = "Brigada mixta" historical_model = 0 }
+	regiment = { type = light_infantry_brigade name = "" historical_model = 1  }
+	regiment = { type = artillery_brigade name = "" historical_model = 1  }
+	regiment = { type = engineer_brigade name = "" historical_model = 1  }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1  }
+	regiment = { type = horse_transport name = "" historical_model = 2  }
+}
+division = {
+	name = "Brigada Mixta"
+	location = 3885
+	is_reserve = yes
+	regiment = { type = division_hq_standard name = "Brigada mixta" historical_model = 0 }
+	regiment = { type = light_infantry_brigade name = "" historical_model = 1  }
+	regiment = { type = artillery_brigade name = "" historical_model = 1  }
+	regiment = { type = engineer_brigade name = "" historical_model = 1  }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1  }
+	regiment = { type = horse_transport name = "" historical_model = 2  }
+}
+division = {
+	name = "Brigada Mixta"
+	location = 3953
+	is_reserve = yes
+	regiment = { type = division_hq_standard name = "Brigada mixta" historical_model = 0 }
+	regiment = { type = light_infantry_brigade name = "" historical_model = 1  }
+	regiment = { type = artillery_brigade name = "" historical_model = 1  }
+	regiment = { type = engineer_brigade name = "" historical_model = 1  }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1  }
+	regiment = { type = horse_transport name = "" historical_model = 2  }
+}
+}

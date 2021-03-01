@@ -1,0 +1,929 @@
+#########################################
+# S P A N I S H C I V I L W A R . T X T #
+#########################################
+# ASCENSION OF FRANCO TO POWER
+country_event = {
+	id = 100
+	trigger = {
+		tag = SPA
+		year = 1936
+		or = {
+			month = 7
+			month = 8
+		}
+		not = { has_country_flag = franco_ascension }
+	}
+	mean_time_to_happen =  {
+		days = 1
+	}		
+	title = "EVTNAME99004"
+	desc = "EVTDESC99004"
+	picture = "EVT-99004"
+	option = {
+		name = "EVTOPTA99004"
+		head_of_state = 10032 # Franco Bahamonde
+		head_of_government = 10032
+		government = fascist_republic # government changes to fascist republic
+		neutrality = 60 # isolationism
+		remove_brigade = "Circunscripcion Occidental HQ" #Occidental
+		remove_brigade = "2. Circunscripcion Occidental"
+		remove_brigade = "Larache"
+		remove_brigade = "4. Circunscripcion Occidental"
+		remove_brigade = "6. Circunscripcion Occidental"
+		remove_brigade = "5. Circunscripcion Occidental"
+		remove_brigade = "7. Circunscripcion Occidental"
+		remove_brigade = "Circunscripcion Oriental HQ" #Oriental
+		remove_brigade = "2. Circunscripcion Oriental"
+		remove_brigade = "Cazadores"
+		remove_brigade = "4. Circunscripcion Oriental"
+		remove_brigade = "6. Circunscripcion Oriental"
+		remove_brigade = "5. Circunscripcion Oriental"
+		remove_brigade = "7. Circunscripcion Oriental"
+		remove_brigade = "Comandancia de Canarias HQ" #Canarias
+		remove_brigade = "2. Comandancia de Canarias"
+		remove_brigade = "3. Comandancia de Canarias"
+		remove_brigade = "4. Comandancia de Canarias"
+		remove_brigade = "5. Comandancia de Canarias"
+		remove_brigade = "6. Comandancia de Canarias"
+		remove_brigade = "Comandancia de Baleares HQ" #Baleares
+		remove_brigade = "2. Comandancia de Baleares"
+		remove_brigade = "3. Comandancia de Baleares"
+		remove_brigade = "4. Comandancia de Baleares"
+		remove_brigade = "5. Comandancia de Baleares"
+		remove_brigade = "6. Comandancia de Baleares"
+		load_oob = scenarios/SCW/SPA_OOB_Franco.txt
+		set_country_flag = franco_ascension
+		5125 = { supplies = 4000 }
+		add_country_modifier = {
+			name = "for_spain"
+			duration = 914
+		}
+	}
+}
+
+### 1938 March Offensive ###
+country_event = {
+	id = 101
+	fire_only_once = yes
+	trigger = {
+		tag = SPA
+		year = 1938
+		month = 3
+		war_with = SPR
+	}
+	mean_time_to_happen =  {
+			days = 1
+	}
+	title = "Franco's March Offensive"
+	desc = "This may be our last chance to reclaim Spain... so we'll push them into the sea before they even know we did!"
+	picture = "EVT-99004"
+	option = {
+		name = "Crush the Reds, For Spain!"
+		manpower = 125
+		add_country_modifier = {
+			name = "francos_march_offensive"
+			duration = 90
+		}
+		SPR = {
+			add_country_modifier = {
+				name = "francos_march_offensive_shock"
+				duration = 45
+			}
+		}
+	}
+}
+
+### Republican Fortifications ###
+country_event = {
+	id = 102
+	fire_only_once = yes
+	trigger = {
+		tag = SPR
+		year = 1936
+		month = 10
+		war_with = SPR
+	}
+	mean_time_to_happen =  {
+			days = 1
+	}		
+	title = "Bilbao's Iron Ring"
+	desc = "The Iron Ring was a vast labyrinthine fortification network around Bilbao, consisting of bunkers, tunnels, and fortified trenches."
+	picture = "EVT-99004"	
+	option = {
+		name = "How long is this going to hold them off?"
+		3814 = { land_fort = 6 fortress = 1 }
+		3955 = { land_fort = 6 fortress = 1 }
+		3956 = { land_fort = 6 fortress = 1 }
+		3885 = { land_fort = 6 fortress = 1 }
+		set_country_flag = iron_ring_forts
+		add_country_modifier = {
+			name = "build_heavy_forts"
+			duration = 145
+		}
+	}
+}
+country_event = {
+	id = 103
+	fire_only_once = yes	
+	trigger = {
+		tag = SPR
+		year = 1937
+		month = 5
+		war_with = SPA
+		4811 = { controlled_by = SPR }
+		4761 = { controlled_by = SPR }
+		4813 = { controlled_by = SPR }
+		4861 = { controlled_by = SPR }
+		4912 = { controlled_by = SPR }
+		4812 = { controlled_by = SPR }
+		not = { has_country_flag = XYZ_forts }
+	}	
+	mean_time_to_happen =  {
+		days = 1
+	}		
+	
+	title = "Defense of Valencia"
+	desc = "The XYZ Line, or Matallana Line, was a system of fortifications built during the Spanish Civil War in order to defend the capital of the Second Spanish Republic in Valencia."
+	picture = "EVT-99004"
+	
+	option = {
+		name = "The Fascists stop here!"
+		4811 = { land_fort = 6 fortress = 1 }
+		4761 = { land_fort = 6 fortress = 1 }
+		4813 = { land_fort = 6 fortress = 1 }
+		4861 = { land_fort = 6 fortress = 1 }
+		4912 = { land_fort = 6 fortress = 1 }
+		4812 = { land_fort = 6 fortress = 1 }
+		set_country_flag = XYZ_forts
+		add_country_modifier = {
+			name = "build_heavy_forts"
+			duration = 200
+		}
+	}
+}
+
+#######################################
+## 	Nationalist Spain Reinforcements ##
+#######################################	
+country_event = {
+	id = 200
+	fire_only_once = yes
+	trigger = {
+		tag = SPA
+		year = 1936
+		war_with = SPR
+		not = { has_country_flag = SPA_reinforce1 }
+	}		
+	mean_time_to_happen =  {
+		days = 1
+	}		
+	title = "The people are mobilized"
+	desc = "12 more divisions to help us with our war efforts"
+	picture = "EVT-99004"		
+	option = {
+		name = "To the Front!"
+		load_oob = scenarios/SCW/SPA_OOB_reinforcements_1.txt
+		set_country_flag = SPA_reinforce1
+		manpower = 75
+	}
+}
+country_event = {
+	id = 201
+	fire_only_once = yes
+	trigger = {
+		tag = SPA
+		year = 1936
+		month = 8
+		war_with = SPR
+		not = { has_country_flag = SPA_reinforce2 }
+	}		
+	mean_time_to_happen =  {
+		days = 1
+	}		
+	title = "The people are mobilized"
+	desc = "12 more divisions to help us with our war efforts"
+	picture = "EVT-99004"		
+	option = {
+		name = "To the Front!"
+		load_oob = scenarios/SCW/SPA_OOB_reinforcements_2.txt
+		set_country_flag = SPA_reinforce2
+		manpower = 75
+	}
+}
+country_event = {
+	id = 202
+	fire_only_once = yes
+	trigger = {
+		tag = SPA
+		year = 1936
+		month = 10
+		war_with = SPR
+		not = { has_country_flag = SPA_reinforce3 }
+	}		
+	mean_time_to_happen =  {
+		days = 1
+	}		
+	title = "The people are mobilized"
+	desc = "12 more divisions to help us with our war efforts"
+	picture = "EVT-99004"
+	option = {
+		name = "To the Front!"
+		load_oob = scenarios/SCW/SPA_OOB_reinforcements_3.txt
+		set_country_flag = SPA_reinforce3
+		manpower = 75
+		officer_pool = -500
+	}
+}
+country_event = {
+	id = 203
+	fire_only_once = yes
+	trigger = {
+		tag = SPA
+		year = 1936
+		month = 11
+		war_with = SPR
+		not = { has_country_flag = SPA_reinforce4 }
+	}		
+	mean_time_to_happen =  {
+		days = 1
+	}		
+	title = "The people are mobilized"
+	desc = "12 more divisions to help us with our war efforts"
+	picture = "EVT-99004"		
+	option = {
+		name = "To the Front!"
+		load_oob = scenarios/SCW/SPA_OOB_reinforcements_4.txt
+		set_country_flag = SPA_reinforce4
+		manpower = 125
+		officer_pool = -750
+		SPA = { military_access = POR }
+	}
+}
+country_event = {
+	id = 204
+	fire_only_once = yes
+	trigger = {
+		tag = SPA
+		year = 1937
+		month = 2
+		war_with = SPR
+		not = { has_country_flag = SPA_reinforce5 }
+	}		
+	mean_time_to_happen =  {
+		days = 1
+	}		
+	title = "The people are mobilized"
+	desc = "12 more divisions to help us with our war efforts"
+	picture = "EVT-99004"
+	option = {
+		name = "To the Front!"
+		load_oob = scenarios/SCW/SPA_OOB_reinforcements_5.txt
+		set_country_flag = SPA_reinforce5
+		manpower = 150
+		officer_pool = -1000
+	}
+}
+country_event = {
+	id = 205
+	fire_only_once = yes
+	trigger = {
+		tag = SPA
+		year = 1937
+		month = 5
+		war_with = SPR
+		not = { has_country_flag = SPA_reinforce6 }
+	}		
+	mean_time_to_happen =  {
+		days = 1
+	}		
+	title = "The people are mobilized"
+	desc = "12 more divisions to help us with our war efforts"
+	picture = "EVT-99004"		
+	option = {
+		name = "To the Front!"
+		load_oob = scenarios/SCW/SPA_OOB_reinforcements_6.txt
+		set_country_flag = SPA_reinforce6
+		manpower = 175
+		officer_pool = -1500
+	}
+}
+country_event = {	
+	id = 206
+	fire_only_once = yes		
+	trigger = {
+		tag = SPA
+		year = 1938
+		month = 1
+		war_with = SPR
+		not = { has_country_flag = SPA_reinforce7 }
+	}		
+	mean_time_to_happen =  {
+		days = 1
+	}		
+	title = "The people are mobilized"
+	desc = "12 more divisions to help us with our war efforts"
+	picture = "EVT-99004"		
+	option = {
+		name = "To the Front!"
+		load_oob = scenarios/SCW/SPA_OOB_reinforcements_7.txt
+		set_country_flag = SPA_reinforce7
+		manpower = 250
+		officer_pool = -1500
+	}
+}
+###################################
+# Nationalist Spain Interventions #
+###################################
+# GERMANY
+country_event = {
+	id = 207
+	trigger = {
+		tag = SPA
+		year = 1936
+		war_with = SPR
+		not = { has_country_flag = german_help }
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	title = "EVTNAME99204"
+	desc = "EVTDESC99204"
+	picture = "EVT-99104"	
+	option = {
+		name = "EVTYES99204"
+		random_owned = { land_fort = 2 }
+		random_owned = { land_fort = 2 }
+		random_owned = { land_fort = 2 }
+		random_owned = { land_fort = 2 }
+		add_country_modifier = {
+			name = "morale_bonus_10"
+			duration = 30
+		}
+		manpower = 150
+		supplies = 2500
+		money = 500
+		#techs
+		smallarms_technology = 360
+		infantry_at = 360
+		small_calibre_gun_design = 180
+		infantry_training = 360
+		armor_training = 180
+		strongpoint_tactics = 90
+		fighter_pilot_training = 180
+		cas_pilot_training = 180
+		ground_attack_tactics = 180
+		set_country_flag = german_help
+		set_country_flag = german_intervention_spanish_civil_war
+		load_oob = scenarios/SCW/SPA_OOB_GER_intervention.txt
+		fuel = 500
+		organisation = 15
+		popularity = 15
+		ai_chance = { factor = 100 }
+	}
+}
+# ITALY
+country_event = {
+	id = 208
+	trigger = {
+		tag = SPA
+		year = 1936
+		war_with = SPR
+		not = { has_country_flag = italian_help }
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	title = "EVTNAME99205"
+	desc = "EVTDESC99205"
+	picture = "EVT-99105"	
+	option = {
+		name = "EVTYES99205"
+		random_owned = { land_fort = 2 }
+		random_owned = { land_fort = 2 }
+		random_owned = { land_fort = 2 }
+		random_owned = { land_fort = 2 }
+		add_country_modifier = {
+			name = "morale_bonus_10"
+			duration = 60
+		}
+		supplies = 4000
+		money = 400
+		set_country_flag = italian_help
+		SPA = { military_access = ITA }
+		load_oob = scenarios/SCW/SPA_OOB_ITA_intervention.txt
+		5125 = { fuel = 2000 }
+		5125 = { supplies = 1500 }
+		organisation = 10
+		popularity = 10
+		ai_chance = { factor = 100 }
+	}		
+}
+# ITALY 2
+country_event = {
+	id = 209
+	trigger = {
+		tag = SPA
+		year = 1938
+		war_with = SPR
+		not = { has_country_flag = italian_help }
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	title = "EVTNAME99205"
+	desc = "EVTDESC99205"
+	picture = "EVT-99105"
+	option = {
+		name = "EVTYES99205"
+		add_country_modifier = {
+			name = "morale_bonus_10"
+			duration = 60
+		}
+		supplies = 4000
+		crude_oil = 4000
+		SPA = { military_access = ITA }
+		load_oob = scenarios/SCW/SPA_OOB_ITA_intervention_2.txt
+		ai_chance = { factor = 100 }
+	}		
+}
+# PORTUGAL
+country_event = {
+	id = 210
+	trigger = {
+		tag = SPA
+		year = 1936
+		war_with = SPR
+		not = { has_country_flag = portugal_help }
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	title = "EVTNAME99107"
+	desc = "EVTDESC99107"
+	picture = "EVT-99105"	
+	option = {
+		name = "EVTYES99107"
+		random_owned = { land_fort = 2 }
+		random_owned = { land_fort = 2 }
+		random_owned = { land_fort = 2 }
+		random_owned = { land_fort = 2 }
+		add_country_modifier = {
+			name = "morale_bonus_10"
+			duration = 60
+		}
+		supplies = 4000
+		money = 300
+		set_country_flag = portugal_help
+		load_oob = scenarios/SCW/SPA_OOB_POR_intervention.txt
+		fuel = 500
+		organisation = 5
+		popularity = 5
+		ai_chance = { factor = 100 }
+	}		
+}
+###################################
+# Republican Spain Reinforcements #
+###################################
+country_event = {
+	id = 251
+	fire_only_once = yes
+	trigger = {
+		tag = SPR
+		year = 1936
+		war_with = SPA
+		not = { has_country_flag = SPR_reinforce1 }
+	}
+	mean_time_to_happen =  {
+		days = 1
+	}		
+	title = "The people are mobilized"
+	desc = "14 more divisions to help us with our war efforts"
+	picture = "SCW"		
+	option = {
+		name = "To the Front!"
+		load_oob = scenarios/SCW/SPR_OOB_reinforcements_1.txt
+		set_country_flag = SPR_reinforce1
+		manpower = 75
+	}
+}
+country_event = {
+	id = 252
+	fire_only_once = yes
+	trigger = {
+		tag = SPR
+		year = 1936
+		month = 8
+		war_with = SPA
+		not = { has_country_flag = SPR_reinforce2 }
+	}		
+	mean_time_to_happen =  {
+		days = 1
+	}		
+	title = "The people are mobilized"
+	desc = "14 more divisions to help us with our war efforts"
+	picture = "SCW"		
+	option = {
+		name = "To the Front!"
+		load_oob = scenarios/SCW/SPR_OOB_reinforcements_2.txt
+		set_country_flag = SPR_reinforce2
+		manpower = 75
+	}
+}
+country_event = {
+	id = 253
+	fire_only_once = yes
+	trigger = {
+		tag = SPR
+		year = 1936
+		month = 9
+		war_with = SPA
+		not = { has_country_flag = SPR_reinforce3 }
+	}		
+	mean_time_to_happen =  {
+		days = 1
+	}		
+	title = "The people are mobilized"
+	desc = "14 more divisions to help us with our war efforts"
+	picture = "SCW"
+	option = {
+		name = "To the Front!"
+		load_oob = scenarios/SCW/SPR_OOB_reinforcements_3.txt
+		set_country_flag = SPR_reinforce3
+		officer_pool = -250
+		manpower = 75
+	}
+}
+country_event = {
+	id = 254
+	fire_only_once = yes
+	trigger = {
+		tag = SPR
+		year = 1936
+		month = 11
+		war_with = SPA
+		not = { has_country_flag = SPR_reinforce4 }
+	}		
+	mean_time_to_happen =  {
+		days = 1
+	}		
+	title = "The people are mobilized"
+	desc = "14 more divisions to help us with our war efforts"
+	picture = "SCW"
+	option = {
+		name = "To the Front!"
+		load_oob = scenarios/SCW/SPR_OOB_reinforcements_4.txt
+		set_country_flag = SPR_reinforce4
+		officer_pool = -250
+		manpower = 75
+	}
+}
+country_event = {
+	id = 255
+	trigger = {
+		tag = SPR
+		year = 1937
+		month = 1
+		war_with = SPA
+		not = { has_country_flag = SPR_reinforce5 }
+	}		
+	mean_time_to_happen =  {
+		days = 1
+	}		
+	title = "The people are mobilized"
+	desc = "14 more divisions to help us with our war efforts"
+	picture = "SCW"		
+	option = {
+		name = "To the Front!"
+		load_oob = scenarios/SCW/SPR_OOB_reinforcements_5.txt
+		set_country_flag = SPR_reinforce5
+		officer_pool = -750
+		manpower = 75
+	}
+}
+country_event = {
+	id = 256
+	trigger = {
+		tag = SPR
+		year = 1937
+		month = 5
+		war_with = SPA
+		not = { has_country_flag = SPR_reinforce6 }
+	}		
+	mean_time_to_happen =  {
+		days = 1
+	}		
+	title = "The people are mobilized"
+	desc = "14 more divisions to help us with our war efforts"
+	picture = "SCW"		
+	option = {
+		name = "To the Front!"
+		load_oob = scenarios/SCW/SPR_OOB_reinforcements_6.txt
+		set_country_flag = SPR_reinforce6
+		officer_pool = -1000
+		manpower = 75
+	}
+}
+country_event = {
+	id = 257		
+	trigger = {
+		tag = SPR
+		year = 1937
+		month = 10
+		war_with = SPA
+		not = { has_country_flag = SPR_reinforce7 }
+	}
+	mean_time_to_happen =  {
+		days = 1
+	}		
+	title = "The people are mobilized"
+	desc = "14 more divisions to help us with our war efforts"
+	picture = "SCW"
+	option = {
+		name = "To the Front!"
+		load_oob = scenarios/SCW/SPR_OOB_reinforcements_7.txt
+		set_country_flag = SPR_reinforce7
+		officer_pool = -1500
+		manpower = 100
+	}
+}
+country_event = {
+	id = 258
+	trigger = {
+		tag = SPR
+		year = 1938
+		month = 6
+		war_with = SPA
+		not = { has_country_flag = SPR_reinforce8 }
+	}
+	mean_time_to_happen =  {
+		days = 1
+	}
+	title = "The people are mobilized"
+	desc = "14 more divisions to help us with our war efforts"
+	picture = "SCW"
+	option = {
+		name = "To the Front!"
+		load_oob = scenarios/SCW/SPR_OOB_reinforcements_8.txt
+		set_country_flag = SPR_reinforce8
+		officer_pool = -2000
+		manpower = 125
+	}
+}
+#################################
+# Republican Spain Intervention #
+#################################
+# MEXICO
+country_event = {
+	id = 300
+	trigger = {
+		tag = SPR
+		year = 1936
+		war_with = SPA
+		not = { has_country_flag = mexican_help }
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	title = "EVTNAME99109"
+	desc = "EVTDESC99109"
+	picture = "EVT-99100"
+	option = {
+		name = "EVTYES99109"
+		add_country_modifier = {
+			name = "morale_boost_help"
+			duration = 15
+		}
+		set_country_flag = mexican_help
+		random_owned = { land_fort = 2 }
+		random_owned = { land_fort = 2 }
+		random_owned = { land_fort = 2 }
+		random_owned = { land_fort = 2 }
+		random_owned = { land_fort = 2 }
+		supplies = 2500
+		money = 250
+		fuel = 250
+		officer_pool = 250
+		ai_chance = { factor = 100 }
+	}
+}
+
+#############
+# O T H E R #
+#############
+# Italian aid
+country_event = {
+	
+	id = 1
+	fire_only_once = yes
+	trigger = {
+		tag = SPA
+	}
+
+	mean_time_to_happen =  {
+		months = 5
+	}
+
+	title = "SCW_aid_ITA"
+	desc = "SCW_SPAaid_desc"
+	picture = "SCW"
+
+	option = {
+		name = "Event_ok"
+			add_country_modifier = {
+				name = ITA_Aid
+				duration = 720
+			}	
+	}
+}
+
+# German aid
+country_event = {
+	
+	id = 2
+	fire_only_once = yes
+	trigger = {
+		tag = SPA
+	}
+
+	mean_time_to_happen =  {
+		months = 5
+	}
+
+	title = "SCW_aid_GER"
+	desc = "SCW_SPAaid_desc"
+	picture = "SCW"
+
+	option = {
+		name = "Event_ok"
+			add_country_modifier = {
+				name = GER_Aid
+				duration = 720
+			}	
+			#load_oob = "scenarios\SCW\Extra_OOBs\GER1.txt" #Legion condor
+	}
+}
+
+# British aid
+country_event = {
+	
+	id = 3
+	fire_only_once = yes
+	trigger = {
+		tag = SPR
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+	}
+
+	title = "SCW_aid_ENG"
+	desc = "SCW_SPRaid_desc"
+	picture = "SCW"
+
+	option = {
+		name = "Event_ex"
+			add_country_modifier = {
+				name = ENG_Aid
+				duration = 720
+			}	
+	}
+}
+
+# French aid
+country_event = {
+	
+	id = 4
+	fire_only_once = yes
+	trigger = {
+		tag = SPR
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+	}
+
+	title = "SCW_aid_FRA"
+	desc = "SCW_SPRaid_desc"
+	picture = "SCW"
+
+	option = {
+		name = "Event_ex"
+			add_country_modifier = {
+				name = FRA_Aid
+				duration = 720
+			}	
+	}
+}
+
+# Soviet aid
+country_event = {
+	
+	id = 5
+	fire_only_once = yes
+	trigger = {
+		tag = SPR
+	}
+
+	mean_time_to_happen =  {
+		months = 5
+	}
+
+	title = "SCW_aid_SOV"
+	desc = "SCW_SPRaid_desc"
+	picture = "SCW"
+
+	option = {
+		name = "Event_ok"
+			add_country_modifier = {
+				name = SOV_Aid
+				duration = 720
+			}	
+	}
+}
+
+# Setup SPR
+country_event = {
+	
+	id = 7
+	fire_only_once = yes
+	trigger = {
+		tag = SPR
+	}
+
+	title = "SCWEVTNAME7"
+	desc = "SCWEVTDESC7"
+	picture = "SCW"
+
+	option = {
+		name = "Event_ex"
+		add_country_modifier = {
+				name = Controls_Madrid
+				duration = 720
+			}
+	}
+}
+
+# SPA captures Madrid
+country_event = {
+	
+	id = 8
+	fire_only_once = yes
+	trigger = {
+		tag = SPA
+		controls = 4540
+	}
+
+	title = "SCWEVTNAME7"
+	desc = "SCWEVTDESC8"
+	picture = "SPA_victory"
+
+	option = {
+		name = "Event_ex"
+		add_country_modifier = {
+				name = Controls_Madrid
+				duration = 720
+			}
+			set_country_flag = got_madrid
+	}
+}
+
+# SPA loses Madrid
+country_event = {
+	
+	id = 9
+	fire_only_once = yes
+	trigger = {
+		tag = SPA
+		NOT = { controls = 4540} 
+		has_country_flag = got_madrid
+	}
+
+	title = "SCWEVTNAME9"
+	desc = "SCWEVTDESC9"
+	picture = "SCW"
+
+	option = {
+		name = "Event_ok"
+		remove_country_modifier = Controls_Madrid
+	}
+}
+
+
+# SPR loses Madrid
+country_event = {	
+	id = 10
+	fire_only_once = yes
+	trigger = {
+		tag = SPR
+		not = { controls = 4540 }
+	}
+
+	title = "SCWEVTNAME9"
+	desc = "SCWEVTDESC9"
+	picture = "SPA_victory"
+
+	option = {
+		name = "Event_ok"
+		remove_country_modifier = Controls_Madrid
+	}
+}

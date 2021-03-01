@@ -1,0 +1,131 @@
+division = {
+	name = "Rojo Militia"
+	location = 4862
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "61 Transports" historical_model = 2 }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 4862
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "62 Transports" historical_model = 2 }
+}
+division = {
+	name = "Rojo Militia"
+	location = 4862
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "63 Transports" historical_model = 2 }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 4862
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "64 Transports" historical_model = 2 }
+}
+division = {
+	name = "Rojo Militia"
+	location = 4862
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "65 Transports" historical_model = 2 }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 4862
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "66 Transports" historical_model = 2 }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 4862
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "67 Transports" historical_model = 2 }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 4862
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "68 Transports" historical_model = 2 }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 4862
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "69 Transports" historical_model = 2 }
+}
+
+division = {
+	name = "Rojo Militia"
+	location = 4862
+	regiment = { type = division_hq_standard name = "" historical_model = 0 }
+	regiment = { type = Communist_militia_brigade name = "" historical_model = 0 }
+	regiment = { type = engineer_brigade name = "" historical_model = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1 }
+	regiment = { type = horse_transport name = "70 Transports" historical_model = 2 }
+}
+
+division = {
+	name = "Brigada Mixta"
+	location = 4862
+	is_reserve = yes
+	regiment = { type = division_hq_standard name = "Brigada mixta" historical_model = 0 }
+	regiment = { type = light_infantry_brigade name = "" historical_model = 1  }
+	regiment = { type = artillery_brigade name = "" historical_model = 1  }
+	regiment = { type = engineer_brigade name = "" historical_model = 1  }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1  }
+	regiment = { type = horse_transport name = "" historical_model = 2  }
+}
+division = {
+	name = "Brigada Mixta"
+	location = 4862
+	is_reserve = yes
+	regiment = { type = division_hq_standard name = "Brigada mixta" historical_model = 0 }
+	regiment = { type = light_infantry_brigade name = "" historical_model = 1  }
+	regiment = { type = artillery_brigade name = "" historical_model = 1  }
+	regiment = { type = engineer_brigade name = "" historical_model = 1  }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1  }
+	regiment = { type = horse_transport name = "" historical_model = 2  }
+}
+division = {
+	name = "Brigada Mixta"
+	location = 4862
+	is_reserve = yes
+	regiment = { type = division_hq_standard name = "Brigada mixta" historical_model = 0 }
+	regiment = { type = light_infantry_brigade name = "" historical_model = 1  }
+	regiment = { type = artillery_brigade name = "" historical_model = 1  }
+	regiment = { type = engineer_brigade name = "" historical_model = 1  }
+	regiment = { type = Recon_cavalry_brigade name = "" historical_model = 1  }
+	regiment = { type = horse_transport name = "" historical_model = 2  }
+}
