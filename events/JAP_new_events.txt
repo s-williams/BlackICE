@@ -10675,7 +10675,7 @@ country_event = {
 		remove_brigade = "Dai-11 Dokuritsu Konsei Ryodan shireibu"
 		remove_brigade = "Dai-11 Hohei rentai"
 		remove_brigade = "Dai-11 Yahohei Sampohei rentai"
-		remove_brigade = "Dai-11 Konsei ryodan"
+		remove_brigade = "Dai-11 'Dokuritsu' Konsei ryodan"
 		remove_brigade = "Dai-11 Dokuritsu Kihei Sosakutai"
 		remove_brigade = "Dai-11 Dokuritsu Konsei Ryodan Shichoheitai"
 		
@@ -11383,9 +11383,9 @@ country_event = {
 		name = "Let's form these divisions!"
 		load_oob = JAP/JAP_27th_104th_Div.txt
 		ai_chance = { factor = 100 }
-		remove_brigade = "Shina Shubitai shireibu"
-		remove_brigade = "1/2/3 Shina Shubitai Hohei rentai"
-		remove_brigade = "Shina Shubitai Yahohei rentai"	
+		remove_brigade = "§RShina Shubitai shireibu§W"
+		remove_brigade = "§R1/2/3 Shina Shubitai Hohei rentai§W"
+		remove_brigade = "§RShina Shubitai Yahohei rentai§W"	
 	}
 	option = {
 		name = "No, I have other plans."
@@ -11412,7 +11412,7 @@ country_event = {
 	picture = "JAPevent33593"
 	
 	option = {
-		name = "Put these divisions in the production queue!"
+		name = "Get these divisions!"
 		manpower = -45
 		supplies = -5000
 		ai_chance = { factor = 100 }
@@ -11626,10 +11626,10 @@ country_event = {
 	
 	title = "EVTNAME33594"
 	desc = "EVTDESC33594"
-	picture = "JAPevent33547"
+	picture = "JAPevent33535"
 	
 	option = {
-		name = "Put this unit in the production queue!"
+		name = "Let's form this division!"
 		manpower = -9
 		supplies = -1000
 		ai_chance = { factor = 100 }
@@ -11846,7 +11846,7 @@ country_event = {
 	picture = "JAPevent33595"
 	
 	option = {
-		name = "Put these units in the production queue!"
+		name = "Let's form these divisions!"
 		manpower = -36
 		supplies = -4000
 		ai_chance = { factor = 100 }
@@ -12063,7 +12063,7 @@ country_event = {
 	picture = "JAPevent33596"
 	
 	option = {
-		name = "Let's place this unit in the production queue!"
+		name = "Let's form this division!"
 		manpower = -9
 		supplies = -1000
 		ai_chance = { factor = 100 }
@@ -12287,11 +12287,12 @@ country_event = {
 		remove_brigade = "Dai-101 Konsei ryodan"
 		remove_brigade = "Dai-101 Kihei rentai"
 		remove_brigade = "Dai-101 Kohei rentai"
-		remove_brigade = "Dai-19 Yahohei rentai"
+		remove_brigade = "Dai-101 Yahohei rentai"
 		remove_brigade = "Dai-101 Sichoheitai"
 		# removing 106th Division
-		remove_brigade = "Dai-108 Shidan shireibu"
+		remove_brigade = "Dai-106 Shidan shireibu"
 		remove_brigade = "111/136 Hohei ryodan"
+		remove_brigade = "Dai-106 Konsei ryodan"
 		remove_brigade = "Dai-106 Kihei rentai"
 		remove_brigade = "Dai-106 Kohei rentai"
 		remove_brigade = "Dai-106 Yahohei rentai"
@@ -12357,7 +12358,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "40IC_Unit_spawn_penalty_150_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_54th_55th_56th_57th_Div.txt
             }
@@ -12370,7 +12371,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "40IC_Unit_spawn_penalty_200_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_54th_55th_56th_57th_Div.txt
             }
@@ -12383,7 +12384,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "40IC_Unit_spawn_penalty_250_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_54th_55th_56th_57th_Div.txt
             }
@@ -12396,7 +12397,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "40IC_Unit_spawn_penalty_300_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_54th_55th_56th_57th_Div.txt
             }
@@ -12409,7 +12410,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "40IC_Unit_spawn_penalty_350_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_54th_55th_56th_57th_Div.txt
             }
@@ -12422,7 +12423,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "40IC_Unit_spawn_penalty_400_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_54th_55th_56th_57th_Div.txt
             }
@@ -12435,7 +12436,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "40IC_Unit_spawn_penalty_450_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_54th_55th_56th_57th_Div.txt
             }
@@ -12448,7 +12449,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "40IC_Unit_spawn_penalty_500_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_54th_55th_56th_57th_Div.txt
             }
@@ -12461,7 +12462,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "40IC_Unit_spawn_penalty_550_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_54th_55th_56th_57th_Div.txt
             }
@@ -12474,7 +12475,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "40IC_Unit_spawn_penalty_600_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_54th_55th_56th_57th_Div.txt
             }
@@ -12487,7 +12488,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "40IC_Unit_spawn_penalty_650_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_54th_55th_56th_57th_Div.txt
             }
@@ -12500,7 +12501,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "40IC_Unit_spawn_penalty_700_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_54th_55th_56th_57th_Div.txt
             }
@@ -12513,7 +12514,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "40IC_Unit_spawn_penalty_750_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_54th_55th_56th_57th_Div.txt
             }
@@ -12525,7 +12526,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "40IC_Unit_spawn_penalty_800_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_54th_55th_56th_57th_Div.txt
             }
@@ -12563,7 +12564,7 @@ country_event = {
 	picture = "JAPevent33599"
 	
 	option = {
-		name = "Put this division in the production queue!"
+		name = "Let's form this division!"
 		manpower = -9
 		supplies = -1000
 		ai_chance = { factor = 100 }
@@ -12781,7 +12782,7 @@ country_event = {
 	picture = "JAPevent33587"
 	
 	option = {
-		name = "Put this division in the production queue!"
+		name = "Let's form this division!"
 		manpower = -9
 		supplies = -1000
 		ai_chance = { factor = 100 }
@@ -13013,7 +13014,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "30IC_Unit_spawn_penalty_150_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_51st_52nd_53rd_Div.txt
             }
@@ -13026,7 +13027,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "30IC_Unit_spawn_penalty_200_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_51st_52nd_53rd_Div.txt
             }
@@ -13039,7 +13040,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "30IC_Unit_spawn_penalty_250_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_51st_52nd_53rd_Div.txt
             }
@@ -13052,7 +13053,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "30IC_Unit_spawn_penalty_300_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_51st_52nd_53rd_Div.txt
             }
@@ -13065,7 +13066,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "30IC_Unit_spawn_penalty_350_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_51st_52nd_53rd_Div.txt
             }
@@ -13078,7 +13079,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "30IC_Unit_spawn_penalty_400_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_51st_52nd_53rd_Div.txt
             }
@@ -13091,7 +13092,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "30IC_Unit_spawn_penalty_450_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_51st_52nd_53rd_Div.txt
             }
@@ -13104,7 +13105,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "30IC_Unit_spawn_penalty_500_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_51st_52nd_53rd_Div.txt
             }
@@ -13117,7 +13118,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "30IC_Unit_spawn_penalty_550_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_51st_52nd_53rd_Div.txt
             }
@@ -13130,7 +13131,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "30IC_Unit_spawn_penalty_600_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_51st_52nd_53rd_Div.txt
             }
@@ -13143,7 +13144,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "30IC_Unit_spawn_penalty_650_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_51st_52nd_53rd_Div.txt
             }
@@ -13156,7 +13157,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "30IC_Unit_spawn_penalty_700_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_51st_52nd_53rd_Div.txt
             }
@@ -13169,7 +13170,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "30IC_Unit_spawn_penalty_750_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_51st_52nd_53rd_Div.txt
             }
@@ -13181,7 +13182,7 @@ country_event = {
                 }
                 add_country_modifier = {
                     name = "30IC_Unit_spawn_penalty_800_V"
-                    duration = 110
+                    duration = 55
                 }	
                 load_oob = JAP/JAP_51st_52nd_53rd_Div.txt
             }
@@ -13663,7 +13664,7 @@ country_event = {
 	picture = "JAPevent33604"
 	
 	option = {
-		name = "Put this division in the production queue"
+		name = "Let's form this division!"
 		manpower = -9
 		supplies = -1000
 		ai_chance = { factor = 100 }
@@ -13880,7 +13881,7 @@ country_event = {
 	picture = "JAPevent33605"
 	
 	option = {
-		name = "Put these divisions in the production queue"
+		name = "Let's form these divisions!"
 		manpower = -42
 		supplies = -5000
 		ai_chance = { factor = 100 }
@@ -14091,7 +14092,7 @@ country_event = {
 	picture = "JAPevent33648"
 	
 	option = {
-		name = "Put this division in the production queue"
+		name = "Let's form this division!"
 		ai_chance = { factor = 100 }
 		manpower = -9
 		supplies = -1000
@@ -14308,7 +14309,7 @@ country_event = {
 	picture = "JAPevent33586"
 	
 	option = {
-		name = "Put this division in the production queue"
+		name = "Let's form this division!"
 		manpower = -9
 		supplies = -1000
 		ai_chance = { factor = 100 }
@@ -14561,7 +14562,7 @@ country_event = {
 	picture = "JAPevent33605"
 	
 	option = {
-		name = "Put these divisions in the production queue"
+		name = "Let's form these divisions!"
 		manpower = -28
 		supplies = -2000
 		ai_chance = { factor = 100 }
@@ -14778,7 +14779,7 @@ country_event = {
 	picture = "JAPevent33610"
 	
 	option = {
-		name = "Put this division in the production queue"
+		name = "Let's form this division!"
 		manpower = -9
 		supplies = -1000
 		ai_chance = { factor = 100 }
@@ -14995,7 +14996,7 @@ country_event = {
 	picture = "JAPevent33596"
 	
 	option = {
-		name = "Put these divisions in the production queue"
+		name = "Let's form these divisions!"
 		manpower = -36
 		supplies = -4000
 		ai_chance = { factor = 100 }
@@ -15270,7 +15271,7 @@ country_event = {
 	picture = "JAPevent33534"
 	
 	option = {
-		name = "Put this division in the production queue"
+		name = "Let's form this division!"
 		manpower = -9
 		supplies = -1000
 		ai_chance = { factor = 100 }
@@ -15483,7 +15484,7 @@ country_event = {
 	picture = "JAPevent33616"
 	
 	option = {
-		name = "Put this division in the production queue"
+		name = "Let's form this division!"
 		manpower = -9
 		supplies = -1000
 		ai_chance = { factor = 100 }
@@ -15701,7 +15702,7 @@ country_event = {
 	picture = "JAPevent33616"
 	
 	option = {
-		name = "Put these divisions in the production queue"
+		name = "Let's form these divisions!"
 		manpower = -36
 		supplies = -4000
 		ai_chance = { factor = 100 }
@@ -15920,7 +15921,7 @@ country_event = {
 	picture = "JAPevent33556"
 	
 	option = {
-		name = "Put this division in the production queue"
+		name = "Let's form this division!"
 		manpower = -9
 		supplies = -1000
 		ai_chance = { factor = 100 }
@@ -16138,7 +16139,7 @@ country_event = {
 	picture = "JAPevent33527"
 	
 	option = {
-		name = "Put this division in the production queue"
+		name = "Let's form this division!"
 		manpower = -9
 		supplies = -1000
 		ai_chance = { factor = 100 }
@@ -16412,7 +16413,7 @@ country_event = {
 	picture = "JAPevent33616"
 	
 	option = {
-		name = "Put these divisions in the production queue"
+		name = "Let's form these divisions!"
 		manpower = -18
 		supplies = -2000
 		ai_chance = { factor = 100 }
@@ -16851,7 +16852,7 @@ country_event = {
 	picture = "JAPevent33616"
 	
 	option = {
-		name = "Put these divisions in the production queue"
+		name = "Let's form these divisions!"
 		manpower = -18
 		supplies = -2000
 		ai_chance = { factor = 100 }
@@ -17070,7 +17071,7 @@ country_event = {
 	picture = "JAPevent33531"
 	
 	option = {
-		name = "Put this division in the production queue"
+		name = "Let's form this division!"
 		manpower = -9
 		supplies = -1000
 		ai_chance = { factor = 100 }
@@ -17290,7 +17291,7 @@ country_event = {
 	picture = "JAPevent33534"
 	
 	option = {
-		name = "Put these divisions in the production queue"
+		name = "Let's form these divisions!"
 		manpower = -18
 		supplies = -1500
 		ai_chance = { factor = 100 }
@@ -17509,7 +17510,7 @@ country_event = {
 	picture = "JAPevent33523"
 	
 	option = {
-		name = "Put these divisions in the production queue"
+		name = "Let's form these divisions!"
 		manpower = -12
 		supplies = -1000
 		ai_chance = { factor = 100 }
@@ -19142,7 +19143,7 @@ country_event = {
 	picture = "JAPevent33635"
 	
 	option = {
-		name = "Put these divisions in the production queue"
+		name = "Let's form these armored divisions!"
 		metal = -1000
 		manpower = -16
 		supplies = -3000
@@ -19362,7 +19363,7 @@ country_event = {
 	picture = "JAPevent33636"
 	
 	option = {
-		name = "Put this division in the production queue"
+		name = "Let's form this armored division!"
 		metal = -500
 		manpower = -8
 		supplies = -1500
@@ -20025,7 +20026,7 @@ country_event = {
 	picture = "JAPevent33605"
 	
 	option = {
-		name = "Put these brigades in production queue."
+		name = "Let's form these brigades!"
 		manpower = -30
 		supplies = -3000
 		ai_chance = { factor = 100 }
@@ -20243,7 +20244,7 @@ country_event = {
 	picture = "JAPevent33640"
 	
 	option = {
-		name = "Put these units in the production queue!"
+		name = "Let's form these garrison units!"
 		manpower = -40
 		supplies = -4000
 		ai_chance = { factor = 100 }
@@ -20679,7 +20680,7 @@ country_event = {
 	picture = "JAPevent33507"
 	
 	option = {
-		name = "Let's place these units in the production queue!"
+		name = "Let's form these garrison units!"
 		manpower = -12
 		supplies = -1000
 		ai_chance = { factor = 100 }
@@ -20897,7 +20898,7 @@ country_event = {
 	picture = "JAPevent33640"
 	
 	option = {
-		name = "Put these units in the production queue!"
+		name = "Let's form these garrison units!"
 		manpower = -25
 		supplies = -2500
 		ai_chance = { factor = 100 }
@@ -21332,7 +21333,7 @@ country_event = {
 	picture = "JAPevent33538"
 	
 	option = {
-		name = "Put these units in the production queue!"
+		name = "Reinforce our Kwantung army!"
 		manpower = -50
 		supplies = -5000
 		metal = -2000
@@ -21935,7 +21936,7 @@ country_event = {
 		officer_pool = -1000
 		ai_chance = { factor = 100 }
 		remove_brigade = "Konoe Jidoshoka Shidan shireibu"
-		remove_brigade = "1/2 Kone Jidoshoka rentai"
+		remove_brigade = "1/2 Konoe Jidoshoka rentai"
 		remove_brigade = "Konoe Konsei ryodan"
 		remove_brigade = "6 Yahohei rentai"
 		remove_brigade = "Konoe Kihei rentai"
@@ -22015,7 +22016,7 @@ country_event = {
 	picture = "JAPevent33664"
 	
 	option = {
-		name = "Put this division in the production queue"
+		name = "Let's form this elite division!"
 		officer_pool = -500
 		manpower = -9
 		supplies = -1000

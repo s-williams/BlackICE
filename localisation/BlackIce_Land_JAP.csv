@@ -762,10 +762,10 @@ JAP_motorized_engineer_brigade_3;Kihei Rvodan Koheitai '43;;;;;;;;;;;;x
 JAP_motorized_engineer_brigade_4;Kihei Rvodan Koheitai '45;;;;;;;;;;;;x
 JAP_motorized_engineer_brigade_5;Kihei Rvodan Koheitai '47;;;;;;;;;;;;x
 ##################### Armored Engineer #;;;;;;;;;;;;;x
-JAP_armored_engineers_brigade_0;Soko Sagyo Ki;;;;;;;;;;;;x
-JAP_armored_engineers_brigade_1;Soko Sagyo Ki;;;;;;;;;;;;x
-JAP_armored_engineers_brigade_2;Soko Sagyo Ki;;;;;;;;;;;;x
-JAP_armored_engineers_brigade_3;Soko Sagyo Ki;;;;;;;;;;;;x
+JAP_armored_engineers_brigade_0;Senshadan Koheitai '41;;;;;;;;;;;;x
+JAP_armored_engineers_brigade_1;Senshadan Koheitai '42;;;;;;;;;;;;x
+JAP_armored_engineers_brigade_2;Senshadan Koheitai '43;;;;;;;;;;;;x
+JAP_armored_engineers_brigade_3;Senshadan Koheitai '44;;;;;;;;;;;;x
 JAP_armored_engineers_brigade_4;Senshadan Koheitai '45;;;;;;;;;;;;x
 JAP_armored_engineers_brigade_5;Senshadan Koheitai '46;;;;;;;;;;;;x
 ##################### Airborne Engineer #;;;;;;;;;;;;;x
@@ -903,15 +903,15 @@ JAP_armored_support_brigade_7;Dokuritsu Konsei Rentai Kiko (VIII);;;;;;;;;;;;;x
 JAP_armored_support_brigade_8;Dokuritsu Konsei Rentai Kiko (IX);;;;;;;;;;;;;x
 JAP_armored_support_brigade_9;Dokuritsu Konsei Rentai Kiko (X);;;;;;;;;;;;;x
 ##################### Artillery #;;;;;;;;;;;;;x
-JAP_artillery_brigade_0; Type 38 10cm Cannon ;;;;;;;;;;;;;x
-JAP_artillery_brigade_1; Type 90 75mm Cannon;;;;;;;;;;;;;x
-JAP_artillery_brigade_2; Type 95 75mm Cannon;;;;;;;;;;;;;x
-JAP_artillery_brigade_3; Type 95 75mm Cannon;;;;;;;;;;;;;x
-JAP_artillery_brigade_4; Type 95 75mm Cannon;;;;;;;;;;;;;x
-JAP_artillery_brigade_6; Type 95 75mm Cannon;;;;;;;;;;;;;x
-JAP_artillery_brigade_7; Type 95 75mm Cannon;;;;;;;;;;;;;x
-JAP_artillery_brigade_8; Type 95 75mm Cannon;;;;;;;;;;;;;x
-JAP_artillery_brigade_9; Type 95 75mm Cannon;;;;;;;;;;;;;x
+JAP_artillery_brigade_0; 75mm Type 31 Field Gun ;;;;;;;;;;;;;x
+JAP_artillery_brigade_1; 75mm Type 31 Field Gun ;;;;;;;;;;;;;x
+JAP_artillery_brigade_2; 75mm Type 38 Field Gun;;;;;;;;;;;;;x
+JAP_artillery_brigade_3; 75mm Type 38 Improved Field Gun;;;;;;;;;;;;;x
+JAP_artillery_brigade_4; 75mm Type 41 Cavalry Gun;;;;;;;;;;;;;x
+JAP_artillery_brigade_5; 75mm Type 90 Field Gun;;;;;;;;;;;;;x
+JAP_artillery_brigade_6; 75mm Type 95 Field Gun;;;;;;;;;;;;;x
+JAP_artillery_brigade_7; 105mm Remodeled Type 14 Field Howitzer;;;;;;;;;;;;;x
+JAP_artillery_brigade_8; 105mm Type 91 Field Howitzer;;;;;;;;;;;;;x
 ##################### Medium Artillery #;;;;;;;;;;;;;x
 JAP_medium_artillery_brigade_0; Type 38 105mm Gun;;;;;;;;;;;;;x
 JAP_medium_artillery_brigade_1; Type 14 105mm Gun;;;;;;;;;;;;;x

@@ -1874,7 +1874,7 @@ German_72ID_decision = {
 			month = 8
 			has_country_flag = welle_two
 			not = { has_country_flag = GERinfdiv_LXXII }
-			not = { has_country_flag = GERinfdiv_LXII_no }
+			not = { has_country_flag = GERinfdiv_LXXII_no }
 			not = { year = 1940 }
 		}
 		
@@ -3392,6 +3392,7 @@ PzDiv20_decision = {
 			controls = 1861
 			not = { has_country_flag = upgrades_no}
 			not = { has_country_flag = 20_PzDiv }
+			not = { has_country_flag = 20_PzDiv_no }
 		}
 		
 		allow = {
