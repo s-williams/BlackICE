@@ -2220,6 +2220,10 @@ evacuate_the_industry_enemy_desc;Evacuate industry(Enemy). ;;;;;;;;;;;;;x
 evacuationpoint_desc;Set Evacuation Point. ;;;;;;;;;;;;;x
 clr_evacuationpoint_desc;Remove Evacuation Point. ;;;;;;;;;;;;;x
 lower_neutrality_desc;Lower Neutrality. ;;;;;;;;;;;;;x
+airbasepoint_desc;Designate Airbase. ;;;;;;;;;;;;;x
+clr_airbasepoint_desc;Clear designated Airbase. ;;;;;;;;;;;;;x
+airbasepoint;Designate Airbase. ;;;;;;;;;;;;;x
+clr_airbasepoint;Clear designated Airbase. ;;;;;;;;;;;;;x
 german_trade_with_SPA_title;Send Resources to help Franco !;;;;;;;;;;;;;x
 german_trade_with_SPA_desc;The Nationalist's war with the communists has lasted longer than expected. Franco's men are running out of supplies, fuel, and resources. We should help !;;;;;;;;;;;;;x,,,,,,,,,,,,
 italy_trade_with_SPA_title;Send Resources to help Franco !;;;;;;;;;;;;;x
@@ -3095,6 +3099,8 @@ excute_ostpolitik_title;After the Final Bitter Peace ;;;;;;;;;;;;;x
 excute_ostpolitik_desc; ;;;;;;;;;;;;;x
 restore_croatia_title;Restore Croatia ;;;;;;;;;;;;;x
 restore_croatia_desc; ;;;;;;;;;;;;;x
+creation_of_serbia_title;Creation of Croatia ;;;;;;;;;;;;;x
+creation_of_serbia_desc; ;;;;;;;;;;;;;x
 fall_of_beograd_ITA_title;Beograd Falls ;;;;;;;;;;;;;x
 fall_of_beograd_ITA_desc;Now We decide on Yugoslavia ;;;;;;;;;;;;;x
 fall_of_beograd_GER_title;Beograd Falls ;;;;;;;;;;;;;x

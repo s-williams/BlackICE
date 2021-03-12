@@ -11,6 +11,10 @@ country_event = {
 	picture = "battle_commander"
 
 	option = {
+		name = "Disable Intro/Help decision"
+		set_country_flag = Disabled_Intro_Help
+	}
+	option = {
 		name = "Show all"
 		country_event = 61000
 		country_event = 61001
@@ -20,6 +24,8 @@ country_event = {
 		country_event = 61005
 		country_event = 61006
 		country_event = 61007
+		country_event = 61008
+		country_event = 50922
 	}
 	option = {
 		name = "Unit Training and Combat Experience"
@@ -56,6 +62,10 @@ country_event = {
 	option = {
 		name = "Energy to Oil Conversion"
 		country_event = 61007
+	}
+	option = {
+		name = "Strategic Resources Trade"
+		country_event = 50922
 	}
 }
 
@@ -128,11 +138,6 @@ country_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		has_country_flag = introduce_features
-	}
-
-
 	title = "Buildings"
 	desc = "EVTDESC61004" 
 	picture = "4yearplan1939"
@@ -192,6 +197,19 @@ country_event = {
 	title = "Science Minister"
 	desc = "EVTDESC61008" 
 	picture = "commando-sabotage-research-facility"
+
+	option = {
+		name = "Okay"
+	}
+}
+country_event = {
+	id = 50922
+
+	is_triggered_only = yes
+
+	title = "Strategic Resources Trade"
+	desc = "EVTDESC50922"
+	picture = "strat_resources"
 
 	option = {
 		name = "Okay"

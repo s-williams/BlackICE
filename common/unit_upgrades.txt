@@ -1292,10 +1292,6 @@ unit_upgrades = {
 		target = anti_air_brigade
 	}
 	upgrade = { 
-		base = anti_air_cruiser
-		target = anti_air_cruiser
-	}
-	upgrade = { 
 		base = anti_tank_brigade
 		target = anti_tank_brigade
 	}
@@ -1330,14 +1326,6 @@ unit_upgrades = {
 	upgrade = { 
 		base = assault_ship
 		target = assault_ship
-	}
-	upgrade = { 
-		base = battlecruiser
-		target = battlecruiser
-	}
-	upgrade = { 
-		base = battleship
-		target = battleship
 	}
 	upgrade = { 
 		base = BB_Andrea_Doria
@@ -1620,10 +1608,6 @@ unit_upgrades = {
 		target = captured_armor_brigade
 	}
 	upgrade = { 
-		base = carrier
-		target = carrier
-	}
-	upgrade = { 
 		base = cas
 		target = cas
 	}
@@ -1634,10 +1618,6 @@ unit_upgrades = {
 	upgrade = { 
 		base = coastal_battleship
 		target = coastal_battleship
-	}
-	upgrade = { 
-		base = coastal_submarine
-		target = coastal_submarine
 	}
 	upgrade = { 
 		base = colonial_bergsjaeger_brigade
@@ -1670,18 +1650,6 @@ unit_upgrades = {
 	upgrade = { 
 		base = commando_brigade
 		target = commando_brigade
-	}
-	upgrade = { 
-		base = command_battleship
-		target = command_battleship
-	}
-	upgrade = { 
-		base = command_carrier
-		target = command_carrier
-	}
-	upgrade = { 
-		base = command_cruiser
-		target = command_cruiser
 	}
 	upgrade = { 
 		base = Communist_militia_brigade
@@ -1760,10 +1728,6 @@ unit_upgrades = {
 		target = destroyer
 	}
 	upgrade = { 
-		base = destroyer_actual
-		target = destroyer_actual
-	}
-	upgrade = { 
 		base = electro_submarine
 		target = electro_submarine
 	}
@@ -1780,10 +1744,6 @@ unit_upgrades = {
 		target = engineer_brigade
 	}
 	upgrade = { 
-		base = escort_carrier
-		target = escort_carrier
-	}
-	upgrade = { 
 		base = fascist_militia_brigade
 		target = fascist_militia_brigade
 	}
@@ -1798,10 +1758,6 @@ unit_upgrades = {
 	upgrade = { 
 		base = flying_rocket
 		target = flying_rocket
-	}
-	upgrade = { 
-		base = frigate
-		target = frigate
 	}
 	upgrade = { 
 		base = garrison_brigade
@@ -1892,10 +1848,6 @@ unit_upgrades = {
 		target = heavy_assault_gun_brigade
 	}
 	upgrade = { 
-		base = heavy_cruiser
-		target = heavy_cruiser
-	}
-	upgrade = { 
 		base = heavy_tank_destroyer_brigade
 		target = heavy_tank_destroyer_brigade
 	}
@@ -1948,24 +1900,12 @@ unit_upgrades = {
 		target = light_bomber
 	}
 	upgrade = { 
-		base = light_carrier
-		target = light_carrier
-	}
-	upgrade = { 
-		base = light_cruiser
-		target = light_cruiser
-	}
-	upgrade = { 
 		base = light_infantry_brigade
 		target = light_infantry_brigade
 	}
 	upgrade = { 
 		base = light_transport
 		target = light_transport
-	}
-	upgrade = { 
-		base = long_range_submarine
-		target = long_range_submarine
 	}
 	upgrade = { 
 		base = luftwaffe_brigade
@@ -2062,10 +2002,6 @@ unit_upgrades = {
 	upgrade = { 
 		base = PBB_Graf_Spee
 		target = PBB_Graf_Spee
-	}
-	upgrade = { 
-		base = pocket_battleship
-		target = pocket_battleship
 	}
 	upgrade = { 
 		base = police_brigade
@@ -2328,10 +2264,6 @@ unit_upgrades = {
 		target = strategic_bomber
 	}
 	upgrade = { 
-		base = submarine
-		target = submarine
-	}
-	upgrade = { 
 		base = super_carrier
 		target = super_carrier
 	}
@@ -2340,20 +2272,12 @@ unit_upgrades = {
 		target = super_heavy_armor_brigade
 	}
 	upgrade = { 
-		base = super_heavy_battleship
-		target = super_heavy_battleship
-	}
-	upgrade = { 
 		base = tactical_bomber
 		target = tactical_bomber
 	}
 	upgrade = { 
 		base = tank_destroyer_brigade
 		target = tank_destroyer_brigade
-	}
-	upgrade = { 
-		base = torpedo_boat
-		target = torpedo_boat
 	}
 	upgrade = { 
 		base = tropical_island_garrison_brigade
